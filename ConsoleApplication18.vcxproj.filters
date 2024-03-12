@@ -13,10 +13,27 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="main\user">
+      <UniqueIdentifier>{92b09802-2972-49ad-940d-b9e06dae2d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\library">
+      <UniqueIdentifier>{a3fd2156-a529-4c64-88e6-9856a6f669ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>main\user</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user.h">
+      <Filter>main\user</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>main\library</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
